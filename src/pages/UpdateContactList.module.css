@@ -1,0 +1,48 @@
+.input button {
+  margin-right: 20px;
+}
+
+
+.input {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: 40rem;
+  }
+
+  .input label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 1px;
+    font-size: 20px;
+  }
+  
+.input input {
+    display: block;
+    width: 100%;
+    border: 1px solid rgb(177, 168, 177);
+    padding: 0.15rem;
+    margin-bottom: 0.9rem;
+  }
+  
+  .input input:focus {
+    /*outline: none;*/
+    border-color: #4f005f;
+  }
+
+.head h3{
+    padding: 0px;
+    margin: 0px;
+    font-size: 25px;
+    color:  #4f005f;
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.head h3 span {
+  margin-left: 10px;
+}

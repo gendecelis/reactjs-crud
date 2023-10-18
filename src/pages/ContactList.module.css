@@ -1,0 +1,121 @@
+.lists {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+caption {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th,td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    font-size: 20px;
+}
+  
+th {
+    background-color: #4f005f;
+    color: white;
+}
+  
+tr:nth-of-type(even){
+    background-color: rgb(177, 168, 177);
+}
+
+td a {
+    border: 2px solid black;
+    margin-left: 10px;
+    padding: 6px;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.view {
+    background-color: rgb(91, 91, 217);
+}
+
+.update {
+    background-color: rgb(65, 198, 65);
+}
+
+.delete {
+    border: 2px solid black;
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 6px;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: rgb(170, 86, 86);
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+
+@media screen and (max-width: 1040px) {
+    td span {
+        display: none;
+    }
+  }
+  
+@media screen and (max-width: 680px) {
+    .list {
+      flex-wrap: wrap;
+      padding: 0px;
+    }
+    td,th {
+        font-size: 13px;
+        padding: 0px;
+    }
+    caption {
+        font-size: 23px;
+    }
+
+    td a {
+        border: 1px solid black;
+        border-radius: 5px;
+        display: inline-flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        color: white;
+        font-size: 10px;
+        text-decoration: none;
+    }
+    
+    .delete {
+        border: 1px solid black;
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+        font-size: 10px;
+        background-color: rgb(170, 86, 86);
+        display: inline-flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    
+    }
+  }
